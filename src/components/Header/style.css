@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: var(--raisin-black);
+    background:linear-gradient(to right, var(--raisin-black), var(--onyx));
     color: var(--bone);
     position: fixed;
     top: 0;
@@ -16,8 +16,11 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 140%;
 }
 
 h1 {
     padding: 20px;
+    width: fit-content;
+    white-space: nowrap;
 }
