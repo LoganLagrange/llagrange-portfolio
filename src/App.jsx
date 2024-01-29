@@ -21,14 +21,16 @@ function App() {
 ]
   return (
     <>
-    <Header />
-    {/* <About /> */}
+    <Header setActiveSection={setActiveSection} />
+    {activeSection === 'about' && <About />}
+    {activeSection === 'portfolio' && 
     <div className='portfolio-div'>
         {projects.map((project, index) => {
             console.log(project);
             return <Project key={index} project={project} />
         })}
     </div>
+    }
     <Footer />
     </>
   )

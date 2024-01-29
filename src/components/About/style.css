@@ -13,7 +13,7 @@ img {
 }
 
 .about-div {
-    padding-top: 150px;
+    margin-top: 150px;
     padding-left: 100px;
     position: absolute;
     display: flex;
