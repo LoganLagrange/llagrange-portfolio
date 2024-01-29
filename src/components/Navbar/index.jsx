@@ -4,10 +4,10 @@ import './style.css'
 function NavBar(props) {
     return (
         <nav>
-            <a href="">About Me</a>
-            <a href="">Portfolio</a>
-            <a href="">Contact</a>
-            <a href="">Resume</a>
+            <a className="navbar-link" href="">About Me</a>
+            <a className="navbar-link" href="">Portfolio</a>
+            <a className="navbar-link" href="">Contact</a>
+            <a className="navbar-link" href="">Resume</a>
         </nav>
 
     )

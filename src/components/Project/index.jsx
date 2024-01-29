@@ -3,19 +3,19 @@ import './style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-function Project(imgSrc, deployedLink, heading, githubLink, techs) {
-
+function Project(props) {
+    console.log(props);
     return (
         <div className='project-card'>
-            <img src={imgSrc} alt="" className='project-image' />
+            <div className='project-bg-image' style={{backgroundImage: `url(${props.project.imgSrc})`}}></div>
             <div className='project-info-div'>
-                <a href={deployedLink}>
-                    <h3 className='card-heading'>{heading}</h3>
+                <a href={props.project.deployedLink} className='project-social-link'>
+                    <h3 className='card-heading'>{props.project.heading}</h3>
                 </a>
-                <a href={githubLink}>
+                <a href={props.project.githubLink} className='project-social-link'>
                     <FontAwesomeIcon icon={faGithub} style={{ padding: '10px' }} className='project-social-icon' />
                 </a>
-                <p className='project-techs'>{techs}</p>
+                <p className='project-techs'>{props.project.techs}</p>
             </div>
         </div>
     )
