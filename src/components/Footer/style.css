@@ -7,8 +7,8 @@
 }
 
 footer  {
-    background:linear-gradient(to right, var(--raisin-black), var(--onyx));
-    color: var(--bone);
+    background:var(--bone);
+    color: var(--raisin-black);
     position: fixed;
     bottom: 0;
     left: 0;

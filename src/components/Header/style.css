@@ -7,7 +7,7 @@
 }
 
 header {
-    background:linear-gradient(to right, var(--raisin-black), var(--onyx));
+    background:var(--raisin-black);
     color: var(--bone);
     position: fixed;
     top: 0;
@@ -21,6 +21,7 @@ header {
 
 h1 {
     padding: 20px;
+    padding-right: 60px;
     width: fit-content;
     white-space: nowrap;
 }
