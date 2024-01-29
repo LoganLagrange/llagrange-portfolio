@@ -17,6 +17,10 @@ footer  {
 
 }
 
+.social-icon {
+    color: var(--raisin-black);
+}
+
 .social-icon:hover {
     color:var(--cool-gray)
 }
