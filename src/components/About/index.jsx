@@ -9,9 +9,10 @@ function About(props) {
             <h2>About Me</h2>
             <img src={profilePic} alt="Profile Picture" />
             <p>
-            I'm baby poke kinfolk live-edge brunch, fingerstache man braid tacos. 
-            8-bit same helvetica direct trade. Same dreamcatcher single-origin coffee beard. 
-            Butcher glossier dreamcatcher tumblr kickstarter, sriracha praxis retro actually XOXO sustainable fashion axe.
+            Born and raised in Northwestern Ontario with a background in the culinary arts and restaurant management. 
+            I have a passion for technology as well as the outdoors and an attitube of always learning and improving in everything I do.
+            Recently having earning a certificate in Full Stack Web Development from the University of Toronto this page is intended
+            to outline some of my work and provide information on how to contact me. My resume is also available to download.
             </p>
         </div>
 
