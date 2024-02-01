@@ -7,6 +7,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Project from './components/Project'
+import Resume from './components/Resume'
 import CRUDTalkerPicture from './assets/crud-talker-ss.png'
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
     </div>
     }
     {activeSection === 'contact' && <Contact/>}
+    {activeSection === 'resume' && <Resume />}
     <Footer />
     </>
   )

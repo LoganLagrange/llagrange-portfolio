@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './style.css'
 
-export default function index() {
+export default function Contact() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
