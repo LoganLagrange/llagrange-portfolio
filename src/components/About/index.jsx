@@ -10,7 +10,7 @@ function About(props) {
             <img src={profilePic} alt="Profile Picture" />
             <p>
             Born and raised in Northwestern Ontario with a background in the culinary arts and restaurant management. 
-            I have a passion for technology as well as the outdoors and an attitube of always learning and improving in everything I do.
+            I have a passion for technology as well as the outdoors and an attitude of always learning and improving in everything I do.
             Recently having earning a certificate in Full Stack Web Development from the University of Toronto this page is intended
             to outline some of my work and provide information on how to contact me. My resume is also available to download.
             </p>

@@ -4,6 +4,7 @@ import profilePic from './assets/PXL_20240111_025422342-cropped.jpg'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import About from './components/About'
+import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Project from './components/Project'
 import CRUDTalkerPicture from './assets/crud-talker-ss.png'
@@ -31,6 +32,7 @@ function App() {
         })}
     </div>
     }
+    {activeSection === 'contact' && <Contact/>}
     <Footer />
     </>
   )
