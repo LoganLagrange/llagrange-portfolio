@@ -51,7 +51,7 @@ export default function Contact() {
   return (
     <div className='contact-div'>
         <h2>Contact</h2>
-        <form onSubmit={handleSubmit} className='contact-form'>
+        {/* <form onSubmit={handleSubmit} className='contact-form'>
             <label htmlFor='name'>Name:</label>
             <input type="text" id='name' name='name' value={formData.name} onChange={handleChange}/>
             <label htmlFor="email">Email:</label>
@@ -64,7 +64,7 @@ export default function Contact() {
                 ))}</p>
             )}
             <button type='submit'>Submit</button>
-        </form>
+        </form> */}
     </div>
   )
 }
