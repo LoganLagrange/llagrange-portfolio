@@ -11,7 +11,7 @@ function NavBar({setActiveSection}) {
         <nav>
             <a className="navbar-link" onClick={(e)=>handleClick(e, 'about')}>About Me</a>
             <a className="navbar-link" onClick={(e)=>handleClick(e, 'portfolio')}>Portfolio</a>
-            <a className="navbar-link" onClick={(e)=>handleClick(e, 'contact')}>Contact</a>
+            {/* <a className="navbar-link" onClick={(e)=>handleClick(e, 'contact')}>Contact</a> */}
             <a className="navbar-link" onClick={(e)=>handleClick(e, 'resume')}>Resume</a>
         </nav>
 

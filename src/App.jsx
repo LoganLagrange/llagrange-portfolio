@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Project from './components/Project'
 import Resume from './components/Resume'
 import CRUDTalkerPicture from './assets/crud-talker-ss.png'
+import pictionarEhPicture from "./assets/pictionar-eh-picture.png"
 
 function App() {
   const [activeSection, setActiveSection] = useState('about');
@@ -17,6 +18,13 @@ function App() {
         heading: 'CRUD-Talker',
         githubLink: 'https://github.com/LoganLagrange/CRUD-Talker',
         techs: 'Express, MySQL, Sequelize, Handlebars, Socket.io'
+    },
+    {
+      imgSrc: pictionarEhPicture,
+      deployedLink: 'https://pictionar-eh.netlify.app/',
+      heading: 'Pictionar-Eh',
+      githubLink: 'https://github.com/LoganLagrange/pictionar-eh',
+      techs: 'React, Socket.io, Express, Sequelize'
     }
 ]
   return (
@@ -31,7 +39,7 @@ function App() {
         })}
     </div>
     }
-    {activeSection === 'contact' && <Contact/>}
+    {/* {activeSection === 'contact' && <Contact/>} */}
     {activeSection === 'resume' && <Resume />}
     <Footer />
     </>
